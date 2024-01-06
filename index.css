@@ -1,0 +1,463 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbe304;
+    font-weight: bold;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6,
+  p, span, a, li :not(.menu a){
+    font-weight: bold !important;
+  }
+
+  .menu a {
+    font-weight: normal!important;
+  }
+img{
+    transform: none;
+margin: 0px;
+padding: 0px;
+border: 0px;
+max-width: 100%;
+
+}
+#image03 .frame  {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Example override */
+    /* Add more specific styles as needed */
+}
+  /* Container styles */
+  .container-nav {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.705);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    align-items: center;
+        width: 100%;
+
+  }
+  
+  nav img {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .menu {
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #000000; /* Change color on hover */
+  }
+  
+  /* Button styles */
+  .button-nav {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .button-nav:hover {
+    background-color: #ebc632;
+    color: black; /* Darker yellow on hover */
+  }
+#wrapper{margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 30px;
+    font: inherit;
+    vertical-align: baseline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: var(--viewport-height);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    width: auto;
+    }
+
+.inner{margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: var(--viewport-height);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+   }
+
+    #main {
+        --alignment: center;
+        --flex-alignment: center;
+        --indent-left: 1;
+        --indent-right: 1;
+        --border-radius-tl: 0;
+        --border-radius-tr: 0;
+        --border-radius-br: 0;
+        --border-radius-bl: 0;
+        align-items: center;
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: center;
+        max-width: 100%;
+        position: relative;
+        text-align: var(--alignment);
+        z-index: 1;
+        transition: opacity 0.125s ease-in-out 0s;
+    }
+
+ 
+
+span.p{
+    margin: 0px;
+padding: 0px;
+border: 0px;
+font: inherit;
+display: block;
+flex:1}
+
+a.button{
+
+    margin: 0px;
+padding: 0px;
+border: 0px;
+font: inherit;
+vertical-align: baseline;
+color: inherit;
+text-decoration: underline;
+transition: color 0.25s ease 0s;
+align-items: center;
+justify-content: center;
+max-width: 100%;
+text-align: center;
+white-space: nowrap;
+display: inline-flex;
+width: 16rem;
+height: 4rem;
+line-height: 4rem;
+font-family: "Dela Gothic One", cursive;
+font-size: 1.125em;
+font-weight: 400;
+border-radius: 2.5rem;
+box-shadow: rgb(77, 62, 92) 0rem 0rem 0rem 0.125rem;
+flex-direction: row-reverse;
+background-color: rgb(5, 4, 0);
+outline: rgb(66, 153, 225) solid 1px !important
+}
+a.button:hover{
+    transform: rotate(-2.125deg)
+}
+span.label{
+    margin: 0px;
+padding: 0px;
+border: 0px;
+font: inherit;
+vertical-align: baseline;
+direction: var(--site-language-direction);
+align-self: flex-end;
+color: white;}
+
+
+#container02 {
+margin: 0px;
+padding: 0px;
+border: 0px;
+font: inherit;
+vertical-align: baseline;
+position: relative;
+display: flex;
+min-height: 15rem;
+align-items: center;
+justify-content: center;
+background-color: rgb(255, 255, 255);
+border-color: rgb(77, 62, 92);
+border-style: solid;
+border-width: 3px;
+box-shadow: rgb(77, 62, 92) 0.177rem 0.177rem 0rem 0rem;
+margin-top: 0rem !important;
+margin-bottom: 0rem !important;
+outline: rgb(66, 153, 225) solid 1px !important;
+flex-direction: row;
+}
+div .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-height: 15rem;
+
+}
+h1.style1,
+h2.style1,
+h3.style1,
+p.style1 {
+    color: #4D3E5C;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2.875em;
+    line-height: 1.125;
+    font-weight: 400;
+}
+
+
+h1.style1 a,
+h2.style1 a,
+h3.style1 a,
+p.style1 a {
+    text-decoration: none;
+}
+
+h1.style1 a:hover,
+h2.style1 a:hover,
+h3.style1 a:hover,
+p.style1 a:hover {
+    text-decoration: underline;
+}
+
+
+
+h1.style2,
+h2.style2,
+h3.style2,
+p.style2 {
+    text-align: center;
+    color: #4D3E5C;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1em;
+    line-height: 1.875;
+    font-weight: 400;
+}
+
+h1.style2 a,
+h2.style2 a,
+h3.style2 a,
+p.style2 a {
+    text-decoration: underline;
+}
+
+h1.style2 a:hover,
+h2.style2 a:hover,
+h3.style2 a:hover,
+p.style2 a:hover {
+    text-decoration: none;
+}
+
+
+
+.image {
+    display: flex;
+    line-height: 0;
+    max-width: 100%;
+    position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr {
+    align-items: center;
+    border: 0;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    min-height: 1rem;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.container {
+    position: relative;
+}
+.container .style1{
+    width: 70%;
+}
+
+.container> .wrapper {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+}
+
+.container> .wrapper> .inner {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+    text-align: var(--alignment);
+}
+
+
+
+.container.style2 {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+}
+
+
+
+.container.style2> .wrapper {
+    display: inline-block;
+    width: 30rem;
+    background-color: #FFFFFF;
+    border-color: #4D3E5C;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0.177rem 0.177rem 0rem 0rem #4D3E5C;
+}
+
+.container.style2> .wrapper> .inner {
+    --gutters: calc(var(--padding-horizontal) * 2);
+    --padding-horizontal: 4rem;
+    --padding-vertical: 4rem;
+    --spacing: 2rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+.container.style2.columns> .wrapper> .inner> *:before {
+    border-left: solid 3px #4D3E5C;
+    content: '';
+    display: block;
+    margin-left: calc((var(--gutters) * -0.5) - 1.5px);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+}
+
+
+.container.style1 {
+    display: flex;
+    width: 100%;
+    min-height: 15rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-color: #4D3E5C;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0.177rem 0.177rem 0rem 0rem #4D3E5C;
+}
+
+
+
+.buttons {
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.buttons li {
+    max-width: 100%;
+}
+
+.buttons li a {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.buttons.style1 {
+    gap: 0.875rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.buttons.style1 li a svg {
+    display: block;
+    fill: #FFFFFF;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    min-width: 16px;
+    width: 1em;
+    margin-left: 0.75rem;
+    margin-right: calc(-0.125em+ 0rem);
+    transition: fill 0.125s ease;
+}
+
+.buttons.style1 li a .label {
+    direction: var(--site-language-direction);
+    overflow: hidden;
+}
+
+.buttons.style1 .button {
+    background-color: #050400;
+    color: #FFFFFF;
+}
+
+
+
+.buttons.style1 li a:hover {
+    transform: rotate(-2.125deg);
+}
+
+
